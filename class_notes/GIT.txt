@@ -1,0 +1,33 @@
+Version control system (VCS)
+- System that records changes to a file or a group of files over a period of time so that we can recall a specific version later.
+- Manges the changes to the code
+- keeps track of each and every modification
+- if any mistake is made, the users can compare and earlier versions and revert to a particular version of the code
+
+Types of VCS:
+1. Centralised VCS (CVCS)
+2. Distributed VCS (DVCS)
+
+GIT:
+- DVCS
+- Open source
+
+How GIT works?
+
+There are 3 stages of GIT.
+3 stages of GIT:
+1. Modified: means that the file is changed, but the version is not created
+2. Committed: the changes that we made is safely and successfully saved/stored in the repo as a version
+3. Staged: means that we have marked the changed files to create the version    
+    
+Basic GIT workflow:
+- Modify the files in the working tree/dir
+- Select the files to stage which are needed to be part of the next commit. Add only those changes to the staging area.
+- Perform commit - This takes the files from the staging area and stores that snapshop permanently to the local GIT repo.
+- Push the commit to remote repo (GitHub).
+
+2 ways of obtaining a GIT repo in local machine
+1. Creating a new empty GIT repo
+2. Clone an existing repo (from GITHUB)
+
+
